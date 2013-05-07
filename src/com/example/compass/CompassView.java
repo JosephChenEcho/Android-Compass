@@ -77,11 +77,11 @@ public class CompassView extends View{
 	int groundHorizonColorFrom;
 	int groundHorizonColorTo;
 	
-	private enum CompassDirection{
-		N,NNE,NE,ENE,
-		E,ESE,SE,SSE,
+	private enum CompassDirection{		
 		S,SSW,SW,WSW,
-		W,WNW,NW,NNW
+		W,WNW,NW,NNW,
+		N,NNE,NE,ENE,
+		E,ESE,SE,SSE
 	}
 	
 	protected void initCompassView(){
